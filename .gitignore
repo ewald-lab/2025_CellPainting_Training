@@ -179,7 +179,7 @@ marimo/_lsp/
 __marimo__/
 
 # Input
-00_input/
+# 00_input/
 
 # Processed
 02_processed_data/*.csv
