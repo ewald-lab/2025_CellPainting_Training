@@ -29,22 +29,15 @@ uv venv .env
 source .env/bin/activate
 uv pip install -r requirements-dev.txt
 ```
-# 📂 2. Data Preparation
-You will need a Cell Painting dataset processed with CellProfiler.
-Typical input data includes:
-Image-based features (*.csv or *.parquet)
-Metadata files (e.g., plate map, compound annotations)
-If you do not yet have a dataset, you can download a public Cell Painting dataset, such as those available from the Broad Institute Cell Painting Gallery.
+This repository contains the example dataset that we will process and analyse in the `inputs` folder.
 
-[TODO] Give details of the different files
-
-# ⚙️ 3. Data Processing
+# ⚙️ 2. Data Processing
 All steps for processing raw CellProfiler output into analysis-ready data are contained in:
 
 📄 01_processing/01_processing.ipynb
 
 Processing is performed using [PyCytominer](https://github.com/cytomining/pycytominer), a standard toolkit for Cell Painting data normalization, feature selection, and aggregation.
-# 🔍 4. Experiment Evaluation
+# 🔍 3. Experiment Evaluation
 Evaluate data quality, reproducibility, and activity:
 
 📄 01_processing/02_evaluate.ipynb
@@ -56,7 +49,7 @@ This notebook includes:
 For more imformation on the replicate correlation and the grit score see the [cytominer-eval package](https://github.com/cytomining/cytominer-eval).
 
 - Mean Average Precision (mAP) — assess intra- vs inter-group similarities ([copairs package](https://github.com/cytomining/copairs)).
-# 📊 5. Downstream Analysis
+# 📊 4. Downstream Analysis
 After evaluation, continue with biological interpretation and visualization.
 
 📄 03_downstream_analysis/03_analysis_evaluation.ipynb
