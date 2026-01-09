@@ -18,9 +18,7 @@ By the end of this tutorial, you will be able to:
 - Perform biological interpretation of morphological profiles
   
 # 🧰 1. Prerequisites & Environment Setup
-Before starting, ensure you have Python ≥ 3.9 and uv (for package management) installed.
-Installation
-Clone the repository:
+Before starting, ensure you have Python ≥ 3.9, uv (for package management), and git installed on your computer. We also highly recommend using an IDE like VSCode. Once you have this basic software installed, use your command line to clone the repository:
 ```bash
 git clone https://github.com/ewald-lab/2025_CellPainting_Training.git
 cd 2025_CellPainting_Training
