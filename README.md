@@ -9,6 +9,14 @@ This tutorial walks you through:
 - Processing CellProfiler output data
 - Evaluating data quality and reproducibility
 - Performing downstream analyses to link morphological profiles with biological activity
+
+# 🧭 Learning Objectives
+By the end of this tutorial, you will be able to:
+- Understand the Cell Painting workflow from image data to feature-level insights
+- Use PyCytominer to process, normalize, aggregate data
+- Evaluate data reproducibility and activity using GRIT and mAP metrics
+- Perform biological interpretation of morphological profiles
+  
 # 🧰 1. Prerequisites & Environment Setup
 Before starting, ensure you have Python ≥ 3.9 and uv (for package management) installed.
 Installation
@@ -65,9 +73,3 @@ Explore generated evaluation data:
 Dive deeper into:
 - Linking morphology to biological mechanisms
 - Comparing compound activities
-# 🧭 6. Learning Objectives
-By the end of this tutorial, you will be able to:
-- Understand the Cell Painting workflow from image data to feature-level insights
-- Use PyCytominer to process, normalize, aggregate data
-- Evaluate data reproducibility and activity using GRIT and mAP metrics
-- Perform biological interpretation of morphological profiles
