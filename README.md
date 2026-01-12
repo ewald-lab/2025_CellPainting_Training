@@ -34,14 +34,14 @@ This repository contains the example dataset that we will process and analyse in
 ## ⚙️ 2. Data Processing
 All steps for processing raw CellProfiler output into analysis-ready data are contained in:
 
-📄 01_processing/01_processing.ipynb
+📄 analysis/01_processing.ipynb
 
 Processing is performed using [PyCytominer](https://github.com/cytomining/pycytominer), a standard toolkit for Cell Painting data normalization, feature selection, and aggregation.
 
 ## 🔍 3. Experiment Evaluation
 Evaluate data quality, reproducibility, and activity:
 
-📄 01_processing/02_evaluate.ipynb
+📄 analysis/02_evaluate.ipynb
 
 This notebook includes:
 - Replicate correlations — assess consistency between replicates
@@ -54,14 +54,14 @@ For more imformation on the replicate correlation and the grit score see the [cy
 ## 📊 4. Downstream Analysis
 After evaluation, continue with biological interpretation and visualization.
 
-📄 03_downstream_analysis/03_analysis_evaluation.ipynb
+📄 analysis/03_analysis_evaluation.ipynb
 
 Explore generated evaluation data:
 - Describe the experimental design
 - Compute the correlation between replicates
 - Assess perturbation similarity across technical batches
 
-📄 03_downstream_analysis/04_results_analysis.ipynb
+📄 analysis/04_results_analysis.ipynb
 
 Dive deeper into:
 - Linking morphology to biological mechanisms
