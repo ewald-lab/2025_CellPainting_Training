@@ -1,6 +1,6 @@
 # 🧪 Ewald Lab Training on Cell Painting Data
 Welcome to the Ewald Lab Cell Painting Training Repository!
-This repository provides a step-by-step tutorial for learning how to process, evaluate, and analyze Cell Painting datasets — from raw CellProfiler outputs to meaningful biological insights.
+This repository provides a step-by-step tutorial for learning how to process, evaluate, and analyze Cell Painting datasets.
 # 📘 Overview
 The **Cell Painting assay** is a high-content imaging approach that captures morphological features of cells across multiple fluorescent channels.
 
