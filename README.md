@@ -18,7 +18,7 @@ This tutorial walks you through:
 By the end of this tutorial, you will be able to:
 
 - Use PyCytominer to process raw morphological profiles
-- Evaluate data reproducibility and activity using GRIT and mAP metrics
+- Evaluate phenotypic activity using mAP metrics
 - Perform biological interpretation of morphological profiles
   
 ## 🧰 Prerequisites & Environment Setup
