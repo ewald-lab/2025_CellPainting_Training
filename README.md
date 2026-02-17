@@ -66,3 +66,48 @@ Explore generated evaluation data:
 Dive deeper into:
 - Linking morphology to biological mechanisms
 - Comparing compound activities
+
+
+## 📚 Glossary
+
+Here are some definitions that you may find helpful throughout the tutorial.
+
+**Plates**  
+Containers that hold multiple wells where cells are grown and treated with perturbations or compounds. Cell Painting experiments commonly use **96-well** or **384-well** plates.
+
+**Wells**  
+Individual compartments within a plate. Each well contains a population of cells exposed to a specific **perturbation**, **treatment**, or **control** condition.
+
+**Batch**  
+A group of plates processed together under similar experimental conditions (e.g., same day, same microscope, same operator). Batch information is critical for identifying and correcting **batch effects** — systematic differences unrelated to biology.
+
+**Profiles**  
+High-dimensional representations of cell morphology obtained after feature extraction. Each profile summarizes thousands of **features** that describe cellular shape, texture, and intensity across multiple imaging channels.
+
+**Features**  
+Quantitative measurements extracted from microscopy images (using software like CellProfiler). Examples include cell size, nuclear intensity, texture patterns, and spatial relationships between organelles. Features are often normalized and aggregated to create a **profile** per well, treatment, or cell population.
+
+**Metadata**  
+Contextual information describing each sample, such as plate ID, well position, compound name, concentration, gene target, or imaging parameters. Metadata allows linking image-derived features to experimental design and biological meaning.
+
+**Perturbation / Treatment**  
+The experimental condition applied to cells to induce a phenotype of interest.  
+This can be:
+- A **chemical compound** (e.g., drug or small molecule). The same chemical tested at **different concentrations**  
+- A **genetic perturbation** (e.g., CRISPR knockout, RNAi, overexpression)  
+
+**Replicate**  
+Repeated experimental samples under identical conditions (same perturbation, same concentration).
+
+**Channel**  
+A fluorescence imaging band capturing a specific cellular component (e.g., nucleus, mitochondria, actin). Each channel provides complementary morphological information.
+
+**Feature Aggregation**  
+The process of combining single-cell features into summary statistics (e.g., mean, median) at the well or treatment level using tools like **PyCytominer**.
+
+**Normalization**  
+A data processing step to remove technical variability between wells or plates (e.g., z-score normalization, median-mAD scaling).
+
+**Batch Effect**  
+Systematic differences between samples introduced by technical variations between experiments or imaging runs. If batch is confounded with our biological variables of interest, it is nearly impossible to make robust inferences. 
+
