@@ -33,8 +33,8 @@ cd 2025_CellPainting_Training
 Set up the environment and install dependencies:
 
 ```bash
-uv venv .env
-source .env/bin/activate
+uv venv cp-training --python 3.11
+source cp-training/bin/activate
 uv pip install -r requirements-dev.txt
 ```
 
