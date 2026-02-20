@@ -183,3 +183,5 @@ outputs/*.csv
 
 # Environment
 .env/
+
+outputs/
